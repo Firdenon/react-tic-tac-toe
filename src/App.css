@@ -14,11 +14,49 @@
   font-weight: bold;
   text-align: center;
   width: 34px;
+  height: 35px;
   color: black;
+}
+.square:hover {
+  border-color: #eb3d34;
+}
+
+.status {
+  margin-bottom: 5px;
+}
+
+.restart {
+  margin-top: 10px;
+  border-radius: 2px;
+  border: 1px solid gray;
+  background: #fff;
+  font-weight: bold;
+  text-align: center;
+  color: black;
+}
+
+.game {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.game-info {
+  margin-left: 20px;
+  text-align: left;
 }
 
 .board-row:after {
   clear: both;
   content: "";
   display: table;
+}
+
+.history-current {
+  margin-top: 5px;
+  font-size: 11px;
+}
+
+.history-btn {
+  font-size: 9px;
 }

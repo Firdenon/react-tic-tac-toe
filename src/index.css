@@ -22,17 +22,6 @@ body {
   min-height: 100vh;
 }
 
-button {
-  margin: 0.5px;
-  font-family: inherit;
-  background-color: #1a1a1a;
-  cursor: pointer;
-  transition: border-color 0.25s;
-}
-button:hover {
-  border-color: #646cff;
-}
-
 @media (prefers-color-scheme: light) {
   :root {
     color: #213547;
