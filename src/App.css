@@ -1,0 +1,24 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.square {
+  border-radius: 2px;
+  border: 1px solid gray;
+  background: #fff;
+  float: left;
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+  width: 34px;
+  color: black;
+}
+
+.board-row:after {
+  clear: both;
+  content: "";
+  display: table;
+}
